@@ -3,21 +3,12 @@ package kr.co.javaStudy.numberNstring;
 public class String {
 
 	public static void main(java.lang.String[] args) {
-		
-		System.out.println("생활코딩");
-		
-		System.out.println('뷁');
-		
-		System.out.println("정수" + 1 + 2);
-		
-		System.out.println(1 + 2 + "정수");
-		
-		System.out.println(1 + 2 + 'a');
-		
-		System.out.println('a' + 1 + 2);
-		
-		//char 는 ascii코드의 값으로 인지한다.
-
+		System.out.println("정수");
+		System.out.println("안" + "정수");
+		System.out.println('a');
+		System.out.println('a' + 'b');
+		System.out.println("Hello \"World\"");
+		System.out.println("Hello \n\"World\"\n");
 	}
 
 }
