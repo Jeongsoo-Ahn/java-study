@@ -1,5 +1,7 @@
 package kr.co.javaStudy.numberNstring;
 
+import java.lang.String;
+
 public class Number {
 
 	public static void main(String[] args) {
