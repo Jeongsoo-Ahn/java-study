@@ -6,6 +6,8 @@ public class IntDatatypeDemo {
 		byte a;
 		System.out.println(0x1001);
 		
+		float x = 3.0F;
+		
 	}
 
 }

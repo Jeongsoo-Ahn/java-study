@@ -6,6 +6,9 @@ public class CastingDemo {
 		double a = 3.0F;
 		float b = 3.0F;
 		
+		int xx = 5;
+		double yy = 5;
+		
 		System.out.println(a);
 		System.out.println(b);
 		
@@ -21,7 +24,7 @@ public class CastingDemo {
 		
 		int x = 3;
 		float y = 1.0F;
-		double z = a + b;
+		double z = a + y;
 		
 		System.out.println(z);
 		

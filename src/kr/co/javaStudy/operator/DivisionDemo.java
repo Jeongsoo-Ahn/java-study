@@ -24,7 +24,12 @@ public class DivisionDemo {
 		int y = 10;
 		
 		System.out.println(y/x);
-		System.out.println(Math.round(y/x));
+		System.out.println(Math.round(c/d));
+		
+		double xx = 10.0D;
+		double yy = 3.0D;
+		System.out.println(Math.round(xx/yy));
+		
 	}
 
 }
