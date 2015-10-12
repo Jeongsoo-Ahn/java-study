@@ -2,6 +2,7 @@ package kr.co.javaStudy.condition;
 
 public class ElseDemo {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		if (false) {
 			System.out.println(1);

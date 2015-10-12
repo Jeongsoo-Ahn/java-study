@@ -1,9 +1,8 @@
 package kr.co.javaStudy.condition;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 public class Condition2Demo {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		if (true) {
 			System.out.println(1);

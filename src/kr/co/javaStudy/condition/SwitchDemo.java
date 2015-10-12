@@ -33,5 +33,7 @@ public class SwitchDemo {
 			System.out.println("three");
 		}
 	}
+	
+	// IF 절에서 가장 많이 비교하게 될 구분을 가장 위에 태우는 것이 좋다.
 
 }

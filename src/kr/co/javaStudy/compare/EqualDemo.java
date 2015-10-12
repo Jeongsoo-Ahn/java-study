@@ -12,8 +12,11 @@ public class EqualDemo {
 		String b = "one";
 		String c = "two";
 		
+		String x = new String("one");
+		
 		System.out.println(a==b);
 		System.out.println(a==c);
+		System.out.println(a==x);
 	}
 
 }

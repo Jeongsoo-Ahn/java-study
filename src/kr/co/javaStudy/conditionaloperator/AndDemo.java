@@ -2,6 +2,7 @@ package kr.co.javaStudy.conditionaloperator;
 
 public class AndDemo {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		if (true && true) {
 			System.out.println(1);
@@ -18,6 +19,7 @@ public class AndDemo {
 		if (false && false) {
 			System.out.println(4);
 		}
+		
 	}
 
 }
