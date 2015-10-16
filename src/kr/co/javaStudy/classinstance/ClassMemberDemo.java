@@ -3,6 +3,19 @@ package kr.co.javaStudy.classinstance;
 class C1{
     static int static_variable = 1;
     int instance_variable = 2;
+    
+    static {		//application 이 구동 될 
+    	System.out.println("static 초기화 ");
+    }
+    
+    {
+    	System.out.println("인스턴스 블럭 초기화 ");
+    }
+    
+    public C1() {
+    	System.out.println("인스턴스 생성자 호출");
+    }
+    
     static void static_static(){
         System.out.println(static_variable);
     }
@@ -18,8 +31,13 @@ class C1{
         System.out.println(instance_variable);
     }
 }
+
 public class ClassMemberDemo {  
     public static void main(String[] args) {
+    	System.out.println("main 호출");
+    	C1.static_instance();
+    	System.out.println("main 호출 2");
+    	
         C1 c = new C1();
         // 인스턴스를 이용해서 정적 메소드에 접근 -> 성공
         // 인스턴스 메소드가 정적 변수에 접근 -> 성공
@@ -43,6 +61,9 @@ public class ClassMemberDemo {
         //C1.instance_static();
         // 클래스를 이용해서 인스턴스 메소드에 접근 -> 실패
         //C1.instance_instance();
+        C1 c2 = new C1();
     }
+    
+
  
 }
