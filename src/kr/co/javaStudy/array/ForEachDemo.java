@@ -4,11 +4,15 @@ public class ForEachDemo {
 
 	public static void main(String[] args) {
 		
-		String [] a = {"aaa","bbb","ccc"};
+		int [] a = {1,2,3};
 		
-		for (String e : a) {
+		for (int e : a) {
 			System.out.println(e + " : 상당을 받았습니다.");
 		}
+		
+		String [] x = new String[100000000];
+		x[0] = "1";
+		System.out.println(x[0]);
 		
 	}
 
