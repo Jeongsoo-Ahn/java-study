@@ -3,7 +3,7 @@ package kr.co.javaStudy.object;
 public class CalculatorDemo4 {
 
 	public static void main(String[] args) {
-		 Calculator c1 = new Calculator();		//객체가 된다. new할 때..
+		 Calculator c1 = new Calculator();		//객체가 된다. new할 때
 	     c1.setOprands(10, 20);
 	     c1.sum();       
 	     c1.avg();       
