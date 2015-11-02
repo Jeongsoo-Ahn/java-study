@@ -17,10 +17,9 @@ class A2{
     		System.out.println("ArrayIndexOutOfBoundsException");
     	} catch(ArithmeticException e){
     		System.out.println("ArithmeticException");
-    	} catch(Exception e){
+        } catch(Exception e){
         	System.out.println("Exception");
         }
- 
     }
 }
  
