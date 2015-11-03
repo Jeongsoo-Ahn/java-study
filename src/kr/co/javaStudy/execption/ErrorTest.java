@@ -7,7 +7,7 @@ class E{
 		throw new ArithmeticException();
 	}
 	
-	void throwIOException1(){
+	void throwIOException1() {
 		try {
 			throw new IOException();
 		} catch (IOException e){
@@ -15,9 +15,9 @@ class E{
 		}
 	}
 	
-	void throwIOException2() throws IOException {
-		throw new IOException();
-	}
+//	void throwIOException2() throws IOException {
+//		throw new IOException();
+//	}
 }
 
 public class ErrorTest {
