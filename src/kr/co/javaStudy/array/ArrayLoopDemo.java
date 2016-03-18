@@ -10,7 +10,6 @@ public class ArrayLoopDemo {
 			String b = a[i];
 			System.out.println(b + " : 교육을 받았습니다.");
 			System.out.println(b + " : 교육을 받았습니다.");
-			System.out.println(b + " : 교육을 받았습니다.");
 		}
 		
 	}
