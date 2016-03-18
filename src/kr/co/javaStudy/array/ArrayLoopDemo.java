@@ -8,7 +8,9 @@ public class ArrayLoopDemo {
 		
 		for (int i=0; i<a.length; i++) {
 			String b = a[i];
-			System.out.println(b + " : 상담을 받았습니다.");
+			System.out.println(b + " : 교육을 받았습니다.");
+			System.out.println(b + " : 교육을 받았습니다.");
+			System.out.println(b + " : 교육을 받았습니다.");
 		}
 		
 	}
