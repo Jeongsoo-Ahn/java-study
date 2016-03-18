@@ -24,5 +24,6 @@ public class CalculatorDemo {
         c1.setOprands(10, 20);
         c1.sumDecoPlus();
         c1.sumDecoMinus();
+
     }
 }
